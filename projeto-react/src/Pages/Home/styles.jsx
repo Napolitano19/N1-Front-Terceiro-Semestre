@@ -52,5 +52,4 @@ export const Resection2 = styled.section `
 `
 
 export const Refooter = styled.footer `
-
 `
