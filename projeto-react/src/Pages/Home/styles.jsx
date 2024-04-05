@@ -87,7 +87,7 @@ export const Refooter = styled.footer `
 export const Refooter__div = styled.div `
     display: flex;
     justify-content: center;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.8);
     font-size:18px;
     div#esquerdo {
         img{
