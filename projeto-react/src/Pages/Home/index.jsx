@@ -1,11 +1,11 @@
-import { ReHeader, Rediv, Resection, Resection2, Refooter, Refooter__div } from "./styles"
+import { ReHeader, Rediv, Resection, Resection2, Refooter, Refooter__div, Teste} from "./styles"
+import "/src/index.css"
 
 
-function HomePage() {
-
+function HomePage() { 
 
   return (
-    <div>
+    <Teste>
       <ReHeader>
         <img src="src/imgs/Coffe's%201.png" alt="logo" /> <Rediv><input type="search" placeholder="Pesquisar..." id="" /> <img id="img-lupa" src="src/imgs/icons8-lupa-50 1.png" alt="lupa" /> </Rediv><img src="src/imgs/icons8-about-50 1.png"></img>
       </ReHeader>
@@ -37,7 +37,7 @@ function HomePage() {
           </div>
         </Refooter__div>
       </Refooter>
-    </div>
+    </Teste>
   )
 }
 

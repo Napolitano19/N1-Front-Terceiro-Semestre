@@ -35,6 +35,9 @@ export const Rediv = styled.div `
 export const Resection = styled.section `
     img {
         width: 100%;
+        /* margin-top: 1px; */
+        /* border-top: 1px solid black; */
+        border-bottom: 1px solid black;
     }
 
 `
@@ -64,7 +67,7 @@ export const Resection2 = styled.section `
 
 export const Refooter = styled.footer `
     height: 300px;
-    /* background: linear-gradient(to right,#16341A,#16341A, #00ff22); */
+    border-top: 1px solid black;
     background-color: rgba(22,52,26,0.75);
     
     h2 {
@@ -95,4 +98,7 @@ export const Refooter__div = styled.div `
         }
     }
 
+`
+export const Teste = styled.body `
+    
 `
