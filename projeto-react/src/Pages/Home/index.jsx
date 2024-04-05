@@ -1,4 +1,4 @@
-import { ReHeader, Rediv, Resection, Resection2, Refooter, Refooter__div, Teste} from "./styles"
+import { ReHeader, Rediv, Resection, Resection2, Refooter, Refooter__div, Teste} from "./styles.jsx"
 import "/src/index.css"
 
 
@@ -26,7 +26,8 @@ function HomePage() {
           <div id="esquerdo">
             <h2>Atendimento</h2>
             <p>Horário de Funcionamento: Segunda a Sexta<br/> das 08:00 às 18:00.</p>
-            <p>Localização: Rua Alguma Coisa com Sei la o que - 404</p>
+            <br/>
+            <br/><p>Localização: Rua Alguma Coisa com Sei la o que - 404</p>
             <img src="src/imgs/forma_pagamento.png"/>
           </div>
           <div>

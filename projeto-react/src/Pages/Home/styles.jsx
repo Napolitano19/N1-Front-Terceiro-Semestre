@@ -43,15 +43,19 @@ export const Resection = styled.section `
 `
 
 export const Resection2 = styled.section `
+    margin-top:40px;
+    margin-bottom:50px;
+    font-size:25px;
     height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: "Poppins";
     color: #16341A;
+    
 
     img {
-        margin: 10px 30px;
+        margin: 50px 30px;
         border-radius: 10px;
         width: 340px;
         border-color: #000000 20px solid;
@@ -66,13 +70,15 @@ export const Resection2 = styled.section `
 // `
 
 export const Refooter = styled.footer `
-    height: 300px;
+    height: 350px;
     border-top: 1px solid black;
-    background-color: rgba(22,52,26,0.75);
+    background: linear-gradient(to right,#16341A,#16341A,#16341A, #5d8a63);
     
     h2 {
-        color: #5d8a63;
+        color: #4F6E54;
+        font-size:30px;
         margin-top: 40px;
+        margin-bottom:40px
     }
     
     
@@ -81,7 +87,8 @@ export const Refooter = styled.footer `
 export const Refooter__div = styled.div `
     display: flex;
     justify-content: center;
-    color: #b3b3b3;
+    color: #ffffff;
+    font-size:18px;
     div#esquerdo {
         img{
             width: 160px;
@@ -93,6 +100,7 @@ export const Refooter__div = styled.div `
         height: 300px;
         margin: 0 100px;
         img{
+            margin-top:50px;
             width: 100px;
             cursor: pointer;
         }
