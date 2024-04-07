@@ -53,22 +53,50 @@ export const Resection2 = styled.section `
     font-family: "Poppins";
     color: #16341A;
     
+    div.pai-imgs {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: space-around;
+}
 
-    img {
-        margin: 50px 30px;
-        border-radius: 10px;
-        width: 340px;
-        border-color: #000000 20px solid;
-        
-    }
+div.imgs {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 16px;
+}
+
+img {
+    width: 380px;
+    height: 254px;
+    transition: .6s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.texto {
+    opacity: 0;
+    position: absolute;
+    bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    padding: 0 20px 0 20px;
+    border-radius: 10px;
+    transition: opacity 0.3s;
+}
+
+div.imgs:hover .texto {
+    opacity: 1;
+    cursor: pointer;
+}
+
 `
-
-// export const Resection2__div = styled.div `
-//     display: flex;
-//     width: 600px;
-//     justify-content: space-around;
-// `
-
 export const Refooter = styled.footer `
     height: 350px;
     border-top: 1px solid black;
@@ -106,7 +134,4 @@ export const Refooter__div = styled.div `
         }
     }
 
-`
-export const Teste = styled.body `
-    
 `

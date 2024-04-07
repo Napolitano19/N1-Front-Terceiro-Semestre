@@ -1,11 +1,11 @@
-import { ReHeader, Rediv, Resection, Resection2, Refooter, Refooter__div, Teste} from "./styles.jsx"
+import { ReHeader, Rediv, Resection, Resection2, Refooter, Refooter__div} from "./styles.jsx"
 import "/src/index.css"
 
 
 function HomePage() { 
 
   return (
-    <Teste>
+    <div>
       <ReHeader>
         <img src="src/imgs/Coffe's%201.png" alt="logo" /> <Rediv><input type="search" placeholder="Pesquisar..." id="" /> <img id="img-lupa" src="src/imgs/icons8-lupa-50 1.png" alt="lupa" /> </Rediv><img src="src/imgs/icons8-about-50 1.png"></img>
       </ReHeader>
@@ -14,10 +14,27 @@ function HomePage() {
       </Resection>
       <Resection2>
         <h2>Destaques da semana!</h2>
-        <div>
-          <img src="src/imgs/cafe_quad.png" alt="café" />
-          <img src="src/imgs/cheesecake_quad.png" alt="bolo" />
-          <img src="src/imgs/sandu_quad.png" alt="sanduíches" />
+        <div className="pai-imgs">
+          <div className="imgs">
+            <img src="src/imgs/cafe_quad.png" alt="café" />
+            <h3 className="texto">
+              Café com leite
+            </h3>
+            {/* <p className="texto"></p>
+            <p className="texto"></p> */}
+          </div>
+          <div className="imgs">
+            <img src="src/imgs/cheesecake_quad.png" alt="bolo" />
+            <h3 className="texto">
+              Cheesecake
+            </h3>
+          </div>
+          <div className="imgs">
+            <img src="src/imgs/sandu_quad.png" alt="sanduíches" />
+            <h3 className="texto">
+              Sanduíche natural
+            </h3>
+          </div>
         </div>
 
       </Resection2>
@@ -38,7 +55,7 @@ function HomePage() {
           </div>
         </Refooter__div>
       </Refooter>
-    </Teste>
+    </div>
   )
 }
 
